@@ -13,6 +13,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joyarzun/speeech"
+  },
   "author": "Jonnatan Oyarzun",
   "license": "MIT",
   "description": "Speech recognition with hotword offline detection for nodejs"
