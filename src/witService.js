@@ -12,7 +12,7 @@ const configStreamingService = config => speeech => () => {
       },
       (err, resp, body) => {
         if (err) speeech.emit("error", err);
-        else speeech.emit("result", JSON.parse(body)._text);
+        else speeech.emit("result", JSON.parse(body));
         speeech.emit("start", null);
       }
     );
