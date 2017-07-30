@@ -34,7 +34,8 @@ rec new-file.wav
 
 ## Usage
 
-Inside of examples folder you can find templates for each service:
+Inside of examples folder you can find templates for each service.
+Check out the comments for install others dependencies.
 
 ### Google Speech
 ```
