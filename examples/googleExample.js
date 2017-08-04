@@ -1,4 +1,4 @@
-const speeech = require("../src/index");
+const speeech = require("../src/index")();
 
 const serviceConfig = {
   auth: {

@@ -1,5 +1,5 @@
 // For this example you need to install lodash.get
-const speeech = require("../src/index");
+const speeech = require("../src/index")();
 const get = require("lodash.get");
 
 const serviceConfig = require("../witkeyfile.json");

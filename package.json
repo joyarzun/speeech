@@ -4,6 +4,7 @@
   "main": "src/index.js",
   "dependencies": {
     "@google-cloud/speech": "^0.10.1",
+    "lodash.defaultsdeep": "^4.6.0",
     "nan": "^2.6.2",
     "node-record-lpcm16": "^0.3.0",
     "request": "^2.81.0",

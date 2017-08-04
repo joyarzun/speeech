@@ -1,6 +1,6 @@
 // For this example you need to install say lodash.get request-promise-native
 // It uses the Accuweather Api. Get a key in developer.accuweather.com or run with stubby
-const speeech = require("../src/index");
+const speeech = require("../src/index")();
 const get = require("lodash.get");
 const say = require("say");
 const rp = require("request-promise-native");

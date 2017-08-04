@@ -1,3 +1,5 @@
+const defaultConfig = require("../src/defaultConfig");
+
 describe("Detector", () => {
   beforeEach(() => {
     jest.resetModules();
@@ -7,7 +9,8 @@ describe("Detector", () => {
     it("should emit an hotword event in speeech", () => {
       const detector = require("../src/detector");
       const mockSpeeech = {
-        emit: jest.fn()
+        emit: jest.fn(),
+        config: defaultConfig
       };
 
       const mydetector = detector(mockSpeeech);
@@ -21,7 +24,8 @@ describe("Detector", () => {
     it("should emit just one hotword event in speeech", () => {
       const detector = require("../src/detector");
       const mockSpeeech = {
-        emit: jest.fn()
+        emit: jest.fn(),
+        config: defaultConfig
       };
 
       let mydetector = detector(mockSpeeech);
