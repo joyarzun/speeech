@@ -5,8 +5,8 @@ const get = require("lodash.get");
 const serviceConfig = require("../witkeyfile.json");
 
 const process = result => {
-  const intent = get(result, "entities.intent[0].value");
-  console.log(`The  intent is ${intent}`);
+  const entities = get(result, "entities");
+  console.log(`The  entities are `, entities);
 };
 
 speeech.emit("start", speeech.witService(serviceConfig));
