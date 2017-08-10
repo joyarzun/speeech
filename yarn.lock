@@ -1843,6 +1843,10 @@ pify@^2.0.0, pify@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
 
+pify@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
+
 pinkie-promise@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/pinkie-promise/-/pinkie-promise-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
@@ -2075,6 +2079,13 @@ sax@^1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
+say-promise@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/say-promise/-/say-promise-0.0.2.tgz#02a745af9a834983521400a8aa08c3bd75b939af"
+  dependencies:
+    pify "^3.0.0"
+    say "^0.11.0"
+
 say@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/say/-/say-0.11.0.tgz#d4ec524f96a066043956ce62e78a5792a42e47d9"
@@ -2114,6 +2125,10 @@ sntp@1.x.x:
   resolved "https://registry.yarnpkg.com/sntp/-/sntp-1.0.9.tgz#6541184cc90aeea6c6e7b35e2659082443c66198"
   dependencies:
     hoek "2.x.x"
+
+sound-player@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/sound-player/-/sound-player-1.0.6.tgz#97a51c6f10d61227a9e5c37ab64d5ddb91333781"
 
 source-map-support@^0.4.2:
   version "0.4.15"

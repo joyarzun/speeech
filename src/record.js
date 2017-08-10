@@ -4,7 +4,7 @@ const detector = require("./detector");
 module.exports = speeech => {
   const mic = record.start({
     threshold: 0,
-    verbose: true
+    verbose: false
   });
   speeech.detector = detector(speeech);
   speeech.record = record;
