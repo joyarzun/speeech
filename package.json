@@ -11,6 +11,10 @@
     "snowboy": "^1.2.0"
   },
   "devDependencies": {
+    "accuweather-simple": "^0.0.1",
+    "apiai": "^4.0.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
     "jest": "^20.0.4",
     "lodash.get": "^4.4.2",
     "request-promise-native": "^1.0.4",
