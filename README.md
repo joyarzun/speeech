@@ -1,4 +1,4 @@
-<a href="https://travis-ci.org/joyarzun/speeech"><img src="https://api.travis-ci.org/joyarzun/speeech.svg?branch=master" alt="Build Status"/></a>
+[![CircleCI](https://circleci.com/gh/joyarzun/speeech/tree/master.svg?style=shield&circle-token=d392313a1920dda8d1b000c0a1e3c9b7a16bba93)](https://circleci.com/gh/joyarzun/speeech/tree/master)
 # Speeech
 Alexa style's speech recognition with hotword offline support detection for nodejs. Hotword recognition it's offline then you can use an online service streaming like Google Speech or Wit.ai.
 
