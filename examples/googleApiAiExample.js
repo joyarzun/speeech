@@ -1,3 +1,5 @@
+// npm install say-promise apiai speeech
+// needs apiAikeyfile.json with "apiAiToken"
 const serviceConfig = {
   snowboy: {
     models: {

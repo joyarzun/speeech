@@ -1,4 +1,4 @@
-// For this example you need to install lodash.get
+// For this example you need to install lodash.get and speeech
 const speeech = require("../src/index")();
 const get = require("lodash.get");
 

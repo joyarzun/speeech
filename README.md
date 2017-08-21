@@ -81,3 +81,23 @@ witkeyfile.json:
   "witToken": "XXXXXXXXXXXXXXXXXXX"
 }
 ```
+
+### Api.api
+
+Api.ai use a webhook to comunicate with external services. Inside of example you can use `apiaiWebhook.js` as template for service.
+For the speech logic you can use `googleApiAiExample.js`
+
+accukeyfile.json looks like:
+```
+{
+  "apikey": "XXXXXXXXXXXXXXX",
+  "language": "es-cl"
+}
+```
+
+apiAikeyfile.json:
+```
+{
+  "apiAiToken": "XXXXXXXXXXXXXXX"
+}
+```

@@ -1,3 +1,6 @@
+// npm install express body-parser accuweather-simple
+// needs accukeyfile.json with "apikey" and/or "language" json properties
+// for deveplopment you can use ngrok to obtain a public url
 const express = require("express");
 const accuConfig = require("./accukeyfile");
 const accuweatherSimple = require("accuweather-simple")(accuConfig);
