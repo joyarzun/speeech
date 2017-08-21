@@ -1,0 +1,14 @@
+-  request:
+      url: /forecasts/v1/daily/1day/60449$
+      query:
+       apikey: myapikey
+   response:
+      file: 1dayAccuweather.json
+
+-  request:
+      url: /locations/v1/cities/search$
+      query:
+       apikey: myapikey
+       # q: santiago
+   response:
+      file: searchCityAccuweather.json

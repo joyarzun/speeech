@@ -1,4 +1,6 @@
-const speeech = require("../src/index");
+// npm install speeech
+// needs keyfile.json downloaded from google console, type service
+const speeech = require("../src/index")();
 
 const serviceConfig = {
   auth: {

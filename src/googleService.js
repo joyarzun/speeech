@@ -3,10 +3,11 @@ const configStreamingService = config => speeech => () => {
   const recognizeStream = speechService.streamingRecognize(config.streaming);
 
   recognizeStream.on("data", data => {
-    if (data.results && data.results[0] && data.results[0].isFinal === true) {
+    if (data.results[0] && data.results[0].isFinal === true) {
       const result = data.results[0].alternatives[0].transcript;
       speeech.mic.unpipe(recognizeStream);
       speeech.emit("result", result);
+      recognizeStream.end();
     }
   });
 

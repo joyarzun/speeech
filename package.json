@@ -1,17 +1,31 @@
 {
   "name": "speeech",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "src/index.js",
   "dependencies": {
     "@google-cloud/speech": "^0.10.1",
+    "lodash.defaultsdeep": "^4.6.0",
     "nan": "^2.6.2",
     "node-record-lpcm16": "^0.3.0",
     "request": "^2.81.0",
     "snowboy": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "accuweather-simple": "^0.0.1",
+    "apiai": "^4.0.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jest": "^20.0.4",
+    "lodash.get": "^4.4.2",
+    "request-promise-native": "^1.0.4",
+    "say-promise": "^0.0.2",
+    "sound-player": "^1.0.6",
+    "stubby": "^4.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "stubby": "stubby -d test/stubs/stubby.yaml"
   },
   "repository": {
     "type": "git",

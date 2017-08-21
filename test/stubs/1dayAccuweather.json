@@ -1,0 +1,44 @@
+{
+  "Headline": {
+    "EffectiveDate": "2017-08-01T13:00:00-04:00",
+    "EffectiveEpochDate": 1501606800,
+    "Severity": 5,
+    "Text": "Expect showery weather Tuesday afternoon through Tuesday evening",
+    "Category": "rain",
+    "EndDate": "2017-08-02T01:00:00-04:00",
+    "EndEpochDate": 1501650000,
+    "MobileLink": "http://m.accuweather.com/en/cl/santiago/60449/extended-weather-forecast/60449?lang=en-us",
+    "Link": "http://www.accuweather.com/en/cl/santiago/60449/daily-weather-forecast/60449?lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2017-07-29T07:00:00-04:00",
+      "EpochDate": 1501326000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 42,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 60,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 3,
+        "IconPhrase": "Partly sunny"
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/en/cl/santiago/60449/daily-weather-forecast/60449?day=1&lang=en-us",
+      "Link": "http://www.accuweather.com/en/cl/santiago/60449/daily-weather-forecast/60449?day=1&lang=en-us"
+    }
+  ]
+}

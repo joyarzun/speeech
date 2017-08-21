@@ -1,7 +1,9 @@
 const EventEmitter = require("events");
+const defaultsDeep = require("lodash.defaultsdeep");
 const record = require("./record");
 const googleService = require("./googleService");
 const witService = require("./witService");
+const defaultConfig = require("./defaultConfig");
 
 const speeech = new class extends EventEmitter {}();
 speeech.googleService = googleService;
@@ -20,4 +22,9 @@ speeech.on("hotword", ({ index, hotword }) => {
 
 speeech.on("error", err => console.error(err));
 
-module.exports = speeech;
+const setup = config => {
+  speeech.config = defaultsDeep({}, config, defaultConfig);
+  return speeech;
+};
+
+module.exports = config => setup(config);
